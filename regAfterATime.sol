@@ -9,7 +9,7 @@ contract registrationAfterATime{
 
     uint public peopleCount;
 
-    uint startTime = ______; //insert epoch time value here
+    uint startTime = 1649278231; //insert epoch time value here
 
     modifier onlyWhenOpen(){
         //block.timestamp gives the value of the present epoch time
